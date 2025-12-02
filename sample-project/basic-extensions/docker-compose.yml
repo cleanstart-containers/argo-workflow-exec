@@ -1,0 +1,5 @@
+services:
+  my-extension:
+    build: .
+    image: my-argocd-extension
+    container_name: my-argocd-extension-container
