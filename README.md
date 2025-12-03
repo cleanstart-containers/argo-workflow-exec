@@ -34,6 +34,7 @@ docker pull --platform linux/arm64 cleanstart/argocd-extension-installer:latest
 
 
 ### Resources
+
 ### Resources
 - Official Documentation: https://argo-cd.readthedocs.io/en/latest/
 - View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/argocd-extension-installer
