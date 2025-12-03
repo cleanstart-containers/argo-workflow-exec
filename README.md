@@ -1,17 +1,9 @@
-**CleanStart Container for Argo Workflow Exec**
-
-Official Argo Workflow Exec container image optimized for enterprise environments. Includes the complete Argo Workflows CLI toolkit for managing workflows and orchestrating parallel jobs on Kubernetes. Features security-hardened base image, minimal attack surface, and FIPS-compliant cryptographic modules. Supports both production deployments and development workflows with separate tagged versions. Includes Argo CLI, kubectl, and essential Kubernetes tools for workflow management.
-
-**Key Features**
-* Complete Argo Workflows environment with CLI and orchestration capabilities
+**CleanStart Container for Argo Workflow ExecOfficial Argo Workflow Exec container image optimized for enterprise environments. Includes the complete Argo Workflows CLI toolkit for managing workflows and orchestrating parallel jobs on Kubernetes. Features security-hardened base image, minimal attack surface, and FIPS-compliant cryptographic modules. Supports both production deployments and development workflows with separate tagged versions. Includes Argo CLI, kubectl, and essential Kubernetes tools for workflow management.
+ Key Features* Complete Argo Workflows environment with CLI and orchestration capabilities
 * Optimized for cloud-native and microservices architectures
-
-**Common Use Cases**
-* Building and deploying workflow orchestration
+ Common Use Cases* Building and deploying workflow orchestration
 * Cloud-native workflow development
-
-**Pull Commands**
-Download the runtime container images
+ Pull CommandsDownload the runtime container images
 
 ```bash
 docker pull cleanstart/argo-workflow-exec:latest
@@ -19,55 +11,25 @@ docker pull cleanstart/argo-workflow-exec:latest
 ```bash
 docker pull cleanstart/argo-workflow-exec:latest-dev
 ```
-
-**Interactive Development**
-Start interactive session for development
+ Interactive DevelopmentStart interactive session for development
 
 ```bash
 docker run --rm -it --entrypoint /bin/sh cleanstart/argo-workflow-exec:latest-dev
 ```
-
-**Container Start**
-Start the container
+ Container StartStart the container
 ```bash
 docker run --rm -it --name argo-workflow-dev cleanstart/argo-workflow-exec:latest
 ```
-
-**Best Practices**
-* Use specific image tags for production (avoid latest)
+ Best Practices* Use specific image tags for production (avoid latest)
 * Configure resource limits: memory and CPU constraints
 * Enable read-only root filesystem when possible
-
-**Architecture Support**
-
-**Multi-Platform Images**
-
-```bash
+ Architecture SupportMulti-Platform Images```bash
 docker pull --platform linux/amd64 cleanstart/argo-workflow-exec:latest
 ```
 ```bash
 docker pull --platform linux/arm64 cleanstart/argo-workflow-exec:latest
 ```
-
-**
-### 
-
-### Vulnerability Disclaimer
-
-CleanStart offers Docker images that include third-party open-source libraries and packages maintained by independent contributors. While CleanStart maintains these images and applies industry-standard security practices, it cannot guarantee the security or integrity of upstream components beyond its control.
-
-Users acknowledge and agree that open-source software may contain undiscovered vulnerabilities or introduce new risks through updates. CleanStart shall not be liable for security issues originating from third-party libraries, including but not limited to zero-day exploits, supply chain attacks, or contributor-introduced risks.
-
-Security remains a shared responsibility: CleanStart provides updated images and guidance where possible, while users are responsible for evaluating deployments and implementing appropriate controls.
-
-
-### Vulnerability Disclaimer
-
-CleanStart offers Docker images that include third-party open-source libraries and packages maintained by independent contributors. While CleanStart maintains these images and applies industry-standard security practices, it cannot guarantee the security or integrity of upstream components beyond its control.
-
-Users acknowledge and agree that open-source software may contain undiscovered vulnerabilities or introduce new risks through updates. CleanStart shall not be liable for security issues originating from third-party libraries, including but not limited to zero-day exploits, supply chain attacks, or contributor-introduced risks.
-
-Security remains a shared responsibility: CleanStart provides updated images and guidance where possible, while users are responsible for evaluating deployments and implementing appropriate controls.
+ ###
 
 ### Resources
 
@@ -76,3 +38,11 @@ Security remains a shared responsibility: CleanStart provides updated images and
 - Docker Hub: https://hub.docker.com/r/cleanstart/argo-workflow-exec
 - CleanStart All Images: https://images.cleanstart.com
 - CleanStart All Community Images: https://hub.docker.com/u/cleanstart
+
+### Vulnerability Disclaimer
+
+CleanStart offers Docker images that include third-party open-source libraries and packages maintained by independent contributors. While CleanStart maintains these images and applies industry-standard security practices, it cannot guarantee the security or integrity of upstream components beyond its control.
+
+Users acknowledge and agree that open-source software may contain undiscovered vulnerabilities or introduce new risks through updates. CleanStart shall not be liable for security issues originating from third-party libraries, including but not limited to zero-day exploits, supply chain attacks, or contributor-introduced risks.
+
+Security remains a shared responsibility: CleanStart provides updated images and guidance where possible, while users are responsible for evaluating deployments and implementing appropriate controls.
