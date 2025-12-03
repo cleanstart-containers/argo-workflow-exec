@@ -1,8 +1,8 @@
-**CleanStart Container for Argo Workflow ExecOfficial Argo Workflow Exec container image optimized for enterprise environments. Includes the complete Argo Workflows CLI toolkit for managing workflows and orchestrating parallel jobs on Kubernetes. Features security-hardened base image, minimal attack surface, and FIPS-compliant cryptographic modules. Supports both production deployments and development workflows with separate tagged versions. Includes Argo CLI, kubectl, and essential Kubernetes tools for workflow management.
+- *CleanStart Container for Argo Workflow ExecOfficial Argo Workflow Exec container image optimized for enterprise environments. Includes the complete Argo Workflows CLI toolkit for managing workflows and orchestrating parallel jobs on Kubernetes. Features security-hardened base image, minimal attack surface, and FIPS-compliant cryptographic modules. Supports both production deployments and development workflows with separate tagged versions. Includes Argo CLI, kubectl, and essential Kubernetes tools for workflow management.
  Key Features* Complete Argo Workflows environment with CLI and orchestration capabilities
-* Optimized for cloud-native and microservices architectures
+- Optimized for cloud-native and microservices architectures
  Common Use Cases* Building and deploying workflow orchestration
-* Cloud-native workflow development
+- Cloud-native workflow development
  Pull CommandsDownload the runtime container images
 
 ```bash
@@ -21,8 +21,8 @@ docker run --rm -it --entrypoint /bin/sh cleanstart/argo-workflow-exec:latest-de
 docker run --rm -it --name argo-workflow-dev cleanstart/argo-workflow-exec:latest
 ```
  Best Practices* Use specific image tags for production (avoid latest)
-* Configure resource limits: memory and CPU constraints
-* Enable read-only root filesystem when possible
+- Configure resource limits: memory and CPU constraints
+- Enable read-only root filesystem when possible
  Architecture SupportMulti-Platform Images```bash
 docker pull --platform linux/amd64 cleanstart/argo-workflow-exec:latest
 ```
@@ -31,14 +31,13 @@ docker pull --platform linux/arm64 cleanstart/argo-workflow-exec:latest
 ```
  ###
 
-### Resources
-### Resources
-- Official Documentation: https://argo-workflows.readthedocs.io/en/latest/
-- View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/argo-workflow-exec
-- Docker Hub: https://hub.docker.com/r/cleanstart/argo-workflow-exec
-- CleanStart All Images: https://images.cleanstart.com
-- CleanStart Community Images: https://hub.docker.com/u/cleanstart
+## Resources
 
+- **Official Documentation:** https://argo-workflows.readthedocs.io/en/latest/
+- **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/argo-workflow-exec
+- **Docker Hub:** https://hub.docker.com/r/cleanstart/argo-workflow-exec
+- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ### Vulnerability Disclaimer
 
