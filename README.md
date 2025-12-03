@@ -34,7 +34,6 @@ docker pull --platform linux/arm64 cleanstart/argo-workflow-exec:latest
 
 
 ### Resources
-
 ### Resources
 - Official Documentation: https://argo-workflows.readthedocs.io/en/latest/
 - View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/argo-workflow-exec
