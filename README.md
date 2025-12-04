@@ -26,24 +26,24 @@ Typical scenarios where this container excels:
 
 Download the runtime container images:
 ```bash
-docker pull cleanstart/argo-workflow-exec:latest
+docker pull ghcr.io/cleanstart-containers/argo-workflow-exec:latest
 ```
 ```bash
-docker pull cleanstart/argo-workflow-exec:latest-dev
+docker pull ghcr.io/cleanstart-containers/argo-workflow-exec:latest-dev
 ```
 
 ### Interactive Development
 
 Start interactive session for development:
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/argo-workflow-exec:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/argo-workflow-exec:latest-dev
 ```
 
 ### Container Start
 
 Start the container:
 ```bash
-docker run --rm -it --name argo-workflow-dev cleanstart/argo-workflow-exec:latest
+docker run --rm -it --name argo-workflow-dev ghcr.io/cleanstart-containers/argo-workflow-exec:latest
 ```
 
 ## Best Practices
@@ -56,10 +56,10 @@ docker run --rm -it --name argo-workflow-dev cleanstart/argo-workflow-exec:lates
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/argo-workflow-exec:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/argo-workflow-exec:latest
 ```
 ```bash
-docker pull --platform linux/arm64 cleanstart/argo-workflow-exec:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/argo-workflow-exec:latest
 ```
 
 ## Resources
