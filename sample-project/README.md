@@ -3,6 +3,12 @@
 A simple test for CleanStart Argo Workflow Exec container.
 
 ## Quick Start
+- Clone this repository
+
+Navigate to ```sample-project``` directory
+```
+cd argo-workflow-exec/sample-project/
+```
 
 ### Option 1: Automated Build and Test
 ```bash
