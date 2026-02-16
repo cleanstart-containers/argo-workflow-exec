@@ -67,7 +67,7 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/argo-workflow-e
 - **Official Documentation:** https://argo-workflows.readthedocs.io/en/latest/
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/argo-workflow-exec
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/argo-workflow-exec
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/argo-workflow-exec/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ## Vulnerability Disclaimer
