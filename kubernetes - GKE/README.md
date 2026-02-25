@@ -59,7 +59,7 @@ kubectl logs -n argo-workflow-exec-test job/argo-workflow-exec-test-job
 
 ### Check Pod Status
 ```bash
-kubectl get pods -n argo-workflow-exec-test
+kubectl get pods -n argo-workflow-exec-test -w
 ```
 
 ### Describe Resources
